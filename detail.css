@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+header{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    padding:2px 18px;
+    z-index: 999;
+    position: fixed;
+  
+}
+
+/* cont =contenu de header*/
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: -1px;
+}
+
+.logo{
+width:200px;
+height: 40px;
+overflow: hidden;
+}
+
+.naviga{
+    width: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.naviga a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.tiricons i{
+    margin: 0px 30px;
+}
+.tiricons img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: -3px;
+}
+.navbar{
+    margin-left: 35px;
+}
+
+.herodetail{
+    width: 100%;
+}
+.img1hero{
+    width: 500px;
+    height: 472px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1hero img{
+    width: 400px;
+    height: 433px;
+    border-radius: 50px;
+    margin-left: 30px;
+   
+}
+
+.TitreETprix{
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.titreimg{
+    color: black;
+    font-size: 30px;
+}
+
+.TitreETprix .priximg{
+    color: #A18A68;
+    margin-top: 3px;
+    margin-left: 36px;
+    font-size: 30px;
+}
+
+.imgdetaill{
+    display: flex;
+}
+
+.sousimg{
+    width: 823px;
+    height: 471px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.sousimg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    gap: 12px;
+  
+}
+
+
+.stars{
+    width: 94px;
+    height: 26px;
+    margin-left: 40px;
+}
+
+.descETbuyNow{
+    width: 100%;
+    height: 401px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.descETbuyNow__content{
+    width: 48.4%;
+
+
+}
+
+.selectoption{
+    font-size: 20px;
+    width: 300px;
+    height: 9Opx;
+    margin-left: 5px;
+    margin-top: 30px;
+    border: none;
+    background-color:#d9d9d994 ;
+    
+}
+
+
+
+.BuyNowbtn{
+    text-decoration: none;
+    color: black;
+    background-color: #FFDF3A;
+    padding: 5px 114px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -460px;
+}
+
+footer{
+    width: 100%;
+    height: 10em;
+    position: relative;
+}
+
+input[type=text], select {
+    width: 30em;
+    display: flex;
+    border: 1.8px solid #000000;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    
+}
+
+
+.navfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+
+}
+
+.navfooter .navf a{
+justify-content: space-between;
+text-decoration: none;
+padding: 0px 20px;
+color: #707070;
+}
+
+.navfooter .enteremail{
+    margin-left: 29em;
+    width: 22em;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+
+}
+
+
+

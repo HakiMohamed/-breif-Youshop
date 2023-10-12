@@ -15,7 +15,7 @@ header{
     background-color:rgb(255, 255, 255);
     width: 100%;
     position: relative;
-    padding:2px 18px;
+    padding:0px 18px;
     z-index: 999;
     position: fixed;
   
@@ -82,20 +82,24 @@ padding: 20px;
 
 .hero .prixhero{
     color: white;
-    margin-bottom:15px;
+    margin-bottom:55px;
     padding-left: 20px;
     font-size:24px;
 }
 
-.hero .view a{
+.hero .view{
     width: 40px;
     height: 20px;
     text-decoration: none;
-    background-color: #A18A68;
-    margin-left: 3em;
-    margin-bottom: 20em;
+    margin-left: 1em;
+    margin-top: 5em;
+    border-style: solid;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
    
 }
+
 
 
 
