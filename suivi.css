@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    position: relative;
+    padding:2px 18px;
+    z-index: 999;
+    position: fixed;
+  
+}
+
+/* cont =contenu de header*/
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: -1px;
+}
+
+.logo{
+width:200px;
+height: 40px;
+overflow: hidden;
+}
+
+.naviga{
+    width: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.naviga a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.tiricons i{
+    margin: 0px 30px;
+}
+.tiricons img{
+    height: 20px;
+    width: 20px;
+    margin-bottom: -3px;
+}
+.navbar{
+    margin-left: 35px;
+}
+
+.linesuivi{
+     width: 546px;
+     height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 441px;
+}
+
+.drawcercle{
+    width: 54px;
+    height: 40px;
+    background-color: rgb(195, 189, 189);
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+
+
+.aaaa{
+    width: 54px;
+    height: 40px;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(13, 130, 2);
+   
+}
+
+
+.titlesuivi{
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: medium;
+}
+
+.cercle{
+    
+    margin-right: 90px;
+}
+
+.thanks{
+    position: absolute;
+    margin-top: 50px;
+    color: rgb(9, 149, 7);
+    font-weight: 900;
+    font-size:larger;
+}
