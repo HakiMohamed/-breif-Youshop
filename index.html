@@ -13,28 +13,34 @@
 
 
     <header>
-        <div class="cont">
-            <div class="logo">
-                <img src="images/YouShope.png" alt="site web logo -YouShope">
-            </div>
+        <!--<div class="cont-log-nav">-->
 
+        <div class="logo">
+            <img src="images/YouShope.png" alt="site web logo -YouShope">
+
+            <input type="checkbox" id="menu" class="icmenu">
+            <label for="menu" class="iconmenu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <div class="cont">
+            
             <nav class="naviga">
                 <div class="navbar">
                     <a href="sect2" alt="botton shop ">Shop</a>
                     <a href="#" alt="botton Blog ">Blog</a>
                     <a href="#" alt="botton Our story ">Our story</a>
                 </div>
-                <span class="tiricons">|
+                <span class="tiricons"><span class="tirialt6">|</span>
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"
                         alt="shopping-cart--v1" />
                     <i class="fa-regular fa-user"></i>
-
                 </span>
-
+                
             </nav>
-
         </div>
+      <!--</div>-->
     </header>
 
 
@@ -46,36 +52,44 @@
     <main>
 
         <section class="hero">
-            
-            <div class="titrehero"><h1>Gold big hoops </h1></div>
-             <div class="prixhero" ><h5>$ 68,00</h5></div>
-             
-                <a href="#sect2" class="view" >VIEW PRODUCT</a>
-         
-            
-         
+
+            <div class="contenuhero">
+            <div class="titrehero">
+                <h1>Gold big hoops </h1>
+            </div>
+            <div class="prixhero">
+                <h5>$ 68,00</h5>
+            </div>
+            <a href="#sect2" class="view">VIEW PRODUCT</a>
+        </div>
+
+
         </section>
 
 
         <section class="sec2" id="sect2" id="sect2-2">
             <h1 class="titreSect">Shop The Latest</h1>
             <div class="cards">
-                <div class="card1">
+                <div class="cards">
 
-                    <div>
-                        <a href="detail.html" target="_blank"><img src="images/Img-1-.png" alt="image"></a>
-                            <div class="titreBUY">
-                                <h4 class="titreCards">Lira Earrings</h4>
-                                <botton class="btnBUY">
-                                    <a href="detail.html" target="_blank">Add To Cart</a>
+                    <div class="card">
+                        <a href="detail.html" target="_blank">
+                            <img src="images/Img-1-.png" alt="image">
+                        </a>
+
+                        <div class="titreBUY">
+                            <h4 class="titreCards">Lira Earrings</h4>
+                            <botton class="btnBUY">
+                                <a href="detail.html" target="_blank">Add To Cart</a>
                             </botton>
-                            </div>
-
+                        </div>
                         <h5 class="prix">$ 20,00</h5>
+
                     </div>
 
-                    <div>
-                        <a href="detail.html" target="_blank"><img src="images/Img-2-.png" alt="image"></a>
+                    <div class="card">
+                        <a href="detail.html" target="_blank">
+                            <img src="images/Img-2-.png" alt="image"></a>
 
                         <div class="titreBUY">
                             <h4 class="titreCards">Hal Earrings</h4>
@@ -83,7 +97,8 @@
                         </div>
                         <h5 class="prix">$ 25,00</h5>
                     </div>
-                    <div>
+
+                    <div class="card">
                         <a href="detail.html" target="_blank"><img src="images/Img-3-.png" alt="image"></a>
                         <div class="titreBUY">
                             <h4 class="titreCards">Kaede Hair Pin Set Of 3 </h4>
@@ -92,7 +107,7 @@
                         <h5 class="prix">$ 30,00</h5>
                     </div>
 
-                    <div>
+                    <div class="card">
                         <a href="detail.html" target="_blank"><img src="images/Img-3-.png" alt="image"></a>
                         <div class="titreBUY">
                             <h4 class="titreCards">Hair Pin Set of 3</h4>
@@ -101,9 +116,9 @@
                         <h5 class="prix">$ 30,00</h5>
                     </div>
 
-                    <div>
+                    <div class="card">
                         <a href="detail.html" target="_blank"><img src="images/Img-5-.png" alt="image"></a>
-                        
+
                         <div class="titreBUY">
                             <h4 class="titreCards">Plaine Necklace</h4>
                             <a href="detail.html" target="_blank">Add To Cart</a>
@@ -111,7 +126,7 @@
                         <h5 class="prix">$ 19,00</h5>
                     </div>
 
-                    <div>
+                    <div class="card">
                         <a href="detail.html" target="_blank"><img src="images/Img-6-.png" alt="image"></a>
                         <div class="titreBUY">
                             <h4 class="titreCards">Yuki Hair Pin Set of 3</h4>
@@ -123,28 +138,36 @@
             </div>
 
             <div class="secAbout">
-                <h1 class="about" id="about" >About</h1>
+                <h1 class="about" id="about">About</h1>
                 <p class="P-about">Who we are and why we do what we do!</p>
-                <p class="des-about" >Duis rutrum dictum libero quis rutrum. Etiam sed neque aliquam, sollicitudin ante a, gravida arcu. Nam fringilla molestie velit, eget pellentesque risus scelerisque a. Nam ac urna maximus, tempor magna et, placerat urna. Curabitur eu magna enim. Proin placerat tortor lacus, ac sodales lectus placerat quis.</p>
+                <p class="des-about">Duis rutrum dictum libero quis rutrum. Etiam sed neque aliquam, sollicitudin ante
+                    a, gravida arcu. Nam fringilla molestie velit, eget pellentesque risus scelerisque a. Nam ac urna
+                    maximus, tempor magna et, placerat urna. Curabitur eu magna enim. Proin placerat tortor lacus, ac
+                    sodales lectus placerat quis.</p>
                 <h4 class="toptrand">Top trends</h4>
                 <img class="img1ABout" src="images/Img1.png" alt="image">
-                <p class="P2-about" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. </p>
+                <p class="P2-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a
+                    volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris
+                    eget arcu facilisis consequat sed eu felis. </p>
                 <div class="listabout">
-                <li  > consectetur adipiscing elit. Aliquam placerat</li>
-                <li  >Lorem ipsum dolor sit amet consectetur</li>
+                    <li> consectetur adipiscing elit. Aliquam placerat</li>
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
                 </div>
                 <h3 class="titreProdu">Produced with care</h3>
                 <img class="img2ABout" src="images/Img2.png" alt="image2about">
-                <p class="PargABOUT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendu.</p>
+                <p class="PargABOUT">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a
+                    volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris
+                    eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in
+                    molestie diam bibendu.</p>
                 <hr>
             </div>
 
             <footer>
                 <div class="navfooter">
                     <div class="navf">
-                            <a href="#">CONTACT</a>
-                            <a href="#">TERMS OF SERVICES</a>
-                            <a href="#">SHIPPING AND RETURNS</a>
+                        <a href="#">CONTACT</a>
+                        <a href="#">TERMS OF SERVICES</a>
+                        <a href="#">SHIPPING AND RETURNS</a>
                         <input type="email" class="enteremail" placeholder="Give an email, get the newsletter...">
                     </div>
                 </div>
