@@ -11,100 +11,133 @@
 
 <body>
 
+    <nav>
 
-    <header>
-        <div class="cont">
-            <div class="logo">
-            <a href="index.html">
-                <img src="images/YouShope.png" alt="site web logo -YouShope">
-            </a>
-            </div>
-
-            <nav class="naviga">
-                <div class="navbar">
-                    <a href="#" alt="botton shop ">Shop</a>
-                    <a href="#" alt="botton Blog ">Blog</a>
-                    <a href="#" alt="botton Our story ">Our story</a>
-                </div>
-                <span class="tiricons">|
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"
-                        alt="shopping-cart--v1" />
-                    <i class="fa-regular fa-user"></i>
-
-                </span>
-
-            </nav>
-
-        </div>
-    </header>
+        <ul class="sidebar">
+        <li onclick="anulleSidebar()"> <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+        <li> <a href="#">Shop</a></li>
+        <li> <a href="#">Blog</a></li>
+        <li> <a href="#">Our story</a></li>  
+        <li> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li> <a href="#"><i class="fa-regular fa-user"></i></a></li>  
+        </ul>
+        
+           
+         <ul>
+            <li><a href="index.html"><img src="images/YouShope.png" alt=""></a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Shop</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Blog</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Our story</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">|</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="nePasAficherOnMobile"> <a href="panier.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="nePasAficherOnMobile"> <a href="#"><i class="fa-regular fa-user"></i></a></li>  
+            <li class="menubtn" onclick="afficherSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+           
+        </ul>
+        </nav>
+        
 
 
     <main>
 
-        <section class="herodetail">
-            <div class="TitreETprix">
 
-                <h3 class="titreimg">Plaine Necklace</h3>
-                <h6 class="priximg">$ 19,00</h6>
+        <div class="container" >
+            <div class="containerimgDROIT">
+                <div class="contenugauche">
+                    <div class="imgDacceuil">
+                        <img src="images/Img-5-.png" alt="image detail produit">
+                    </div>
+                    <div class="Images">
+                        <div class="sousImage">
+                            <img src="images/detail1.jpg" alt="">
+                        </div>
+
+                        <div class="sousImage">
+                            <img src="images/detail2.jpg" alt="">
+                        </div>
+
+                        <div class="sousImage">
+                            <img src="images/detail3.jpg" alt="">
+                        </div>
+
+                        <div class="sousImage">
+                            <img src="images/detail4.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="contenudroit">
+                <div class="ProdName">Plaine Necklace</div>
+                <div class="Etoils">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="prix" >$ 19,00</div>
+                <div class="description">description :</div>
+                <p class="paragdescr">Discover the latest the 1pc Unique Geometric Titanium Steel Abstract Human Face Square Pendant Necklace at SHEIN, shop weekly updated undefined and get inspired by the greatest styles. Cash on delivery for GCC.Buy now pay later with Afterpay√ Free Shipping $45 √ Free Shipping on Orders over SAR199 for Saudi Arabia √ $4 Off First Order √</p>
+                
+                <div class="selectoption">
+                    <form action="">
+                          <select id="colores">
+                <option value="" disabled selected> Colores</option>
+                <option value="Golden">Golden</option>
+                <option value="Copper">Copper</option>
+                <option value="Silver">Silver</option>
+               </select>
+                    </form>
+              
+            </div>
+        
+            <div class="Quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="50" placeholder="Quantite">
+            </div>
+            <div class="btn-addToCart">
+                <a href="panier.html">
+                <button>Add to cart</button>
+            </a>
+            </div>
 
             </div>
-                
-           <div class="imgdetaill">
-            <div class="img1hero" >
-            <img src="images/detail1.jpg" alt="image-detail1">
-        </div>
-        <div class="sousimg">
-            <img src="images/detail2.jpg" alt="image-detail2">
-            <img src="images/detail3.jpg" alt="image-detail3">
-            <img src="images/detail4.jpg" alt="image-detail4">
-            <img src="images/Img-5-.png" alt="image-detail5">
-        </div>
-    </div>
-      <img  src="images/stars__1_-removebg-preview.png" class="stars" alt="stars">   
 
-    <div class="descETbuyNow">
-               
-      <div class="descETbuyNow__content">
 
-        <div class="descETbuyNow__content_contenu">
-        <h3>description : </h3>
-        <p>Discover the latest the 1pc Unique Geometric Titanium Steel Abstract Human Face Square Pendant Necklace at SHEIN, shop weekly updated undefined and get inspired by the greatest styles. Cash on delivery for GCC.Buy now pay later with Afterpay√ Free Shipping $45 √ Free Shipping on Orders over SAR199 for Saudi Arabia √ $4 Off First Order √</p>
-      </div>
-      <h4>details :</h4>
-       <h5>size : 40-45 cm</h5>
-       <h5>gender: women</h5>
-       <h5>color: multicolor</h5>
-       
-       <select  class="selectoption" id="countries">
-        <option value="" disabled selected>Choice Your Location</option>
-        <option value="Morroco">Morroco</option>
-        <option value="Algeria">Algeria</option>
-        <option value="Libya">Libya</option>
-        <option value="Egypt">Egypt</option>
-        <option value="tunisie">Tunisie</option>
-        <option value="Morroco">Italy</option>
-        <option value="Algeria">Canada</option>
-        <option value="Libya">Turkie</option>
-        <option value="Egypt">Saudi arabia</option>
-        <option value="tunisie">Spane</option>
-        <option value="tunisie">other countries</option>
-      </select>
-      <div class="inputnmber">
-        <input type="number"  class="selectoption" name="quantity" min="1" max="30" placeholder="Add Quantite">
-    </div>
 
-    <a href="Checkout.html" class="BuyNowbtn">BUY NOW</a>
+
+
+
+
         </div>
-        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <footer>
             <div class="navfooter">
                 <div class="navf">
-                        <a href="#">CONTACT</a>
-                        <a href="#">TERMS OF SERVICES</a>
-                        <a href="#">SHIPPING AND RETURNS</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">TERMS OF SERVICES</a>
+                    <a href="#">SHIPPING AND RETURNS</a>
                     <input type="email" class="enteremail" placeholder="Give an email, get the newsletter...">
                 </div>
             </div>
@@ -141,5 +174,7 @@
 
 
     </main>
+
+    <script src="index.js"></script>
     </body>
     </html>

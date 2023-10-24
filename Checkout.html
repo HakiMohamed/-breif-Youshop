@@ -1,98 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youshop</title>
     <link rel="stylesheet" href="Checkout.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Checkout</title>
 </head>
-
 <body>
-    <header>
+    <div class="container">
+        <h1>Payment Information</h1>
+        <form action="suivi.html"   id="form">
+            <label for="cardNumber">Card Number:</label>
+            <input   type="text" id="cardNumber" placeholder="ex:4324 3846 3984 3679" required maxlength="16">
+            <span class="error"></span>
+
+            <label for="expiration">Expiration Date:</label>
+            <input  type="text" id="expiration" placeholder="MM/YY" required>
+            <span class="error"></span>
+
+            <label for="cvv">CVV:</label>
+            <input  type="text" id="cvv" placeholder="Enter CVV" required>
+            <span class="error"></span>
+
+            <h2>Billing Information</h2>
+            <label for="name">Name:</label>
+            <input  type="text" id="name" placeholder="Enter your name" required>
+            <span class="error"></span>
+
+            <label for="email">email address : </label>
+            <input  type="email" id="email" placeholder="Enter your email" required>
+            <span class="error"></span>
+
+            <label for="address">Address:</label>
+            <input  type="text" id="address" placeholder="Enter your address" required>
+            <span class="error"></span>
+
+            <label for="city">City:</label>
+            <input  type="text" id="city" placeholder="Enter your city" required>
+            <span class="error"></span>
+
+            <label for="zip">ZIP Code:</label>
+            <input  type="text" id="zip" placeholder="Enter ZIP code" required> <span></span>
+             
+            <a href="suivi.html">
+            <button class="checkout-button">Pay Now</button> </a>
         
-        <div class="cont">
-            <div class="logo">
-            <a href="index.html">
-                <img src="images/YouShope.png" alt="site web logo -YouShope">
-            </a>
-            </div>
-
-            <nav class="naviga">
-                <div class="navbar">
-                    <a href="#" alt="botton shop ">Shop</a>
-                    <a href="#" alt="botton Blog ">Blog</a>
-                    <a href="#" alt="botton Our story ">Our story</a>
-                </div>
-                <span class="tiricons">|
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png"
-                        alt="shopping-cart--v1" />
-                    <i class="fa-regular fa-user"></i>
-
-                </span>
-
-            </nav>
-
-        </div>
-    
-    </header>
-
-    <main>
-
-
-        <section >
-            <div class="info">
-            <div class="infoContainer">
-                <h3 class="informatio">INFORMATION</h3>
-            <input type="text" class="email" name="Email address" placeholder="                                                   Email address">
-
-            <h3 class="informatio builling">BUILLING ADDRESS</h3>
-            </div>
-            <input type="text" class="name firstname" name="First name" placeholder="                      First name">
-            <input type="text" class=" name lastname" name="last name" placeholder="                      Last name">
-            <input type="text" class="streetAdress" name="Adress physique" placeholder="                                                     Street address">
-            <input type="text" class=" Apartement" name="Apartement" placeholder="Apartement, suite, etc, (optional)">
-            <input type="text" class=" unit" name="Unit Region" placeholder="                      Unit /Region">
-            <input type="text" class=" Postcode" name="Postcode" placeholder="                      Postcode">
-            <input type="number" class="Phonenumber" name="Phone number" placeholder="                Phone number">
-            <a href="detail.html" class="Postcode Return">Return</a>
-            <a href="payment.html" class="Continue">Continue</a>
-        </div>
-            
-            
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </form>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

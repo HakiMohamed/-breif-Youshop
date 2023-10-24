@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,157 +10,229 @@
 }
 
 
-header{
-    background-color:rgb(255, 255, 255);
+.menubtn {
+    display: none;
+}
+/*****************************************************************************/
+@media (max-width:761px) {
+
+    main .container{
+        display: block;
+        padding: 1px;
+    }
+
+    .nePasAficherOnMobile{
+        display:none;
+    }
+
+
+    .menubtn{
+        display: block;
+      }
+
+
+      .navfooter{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+.navfooter{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     width: 100%;
-    position: relative;
-    padding:2px 18px;
-    z-index: 999;
-    position: fixed;
-  
+}
+.navf{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    position: absolute;
+    right: 10px;
+    height: 102px;
 }
 
-/* cont =contenu de header*/
-.cont{
+
+.navfooter .enteremail{
+    width: 22em;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    position: absolute;
+    right: 100px;
+    top: 74px;
+    background-color: #b7adad89;
+
+}
+
+
+    
+}
+/***********************************************************************************/
+nav {
+    background-color: white;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: -1px;
-}
-
-.logo{
-width:200px;
-height: 40px;
-overflow: hidden;
-}
-
-.naviga{
-    width: 30em;
-    display: flex;
-    justify-content: space-between;
-}
-
-.naviga a{
-    margin: 0px 10px;
-    text-decoration: none;
     color: black;
 }
 
-.tiricons i{
-    margin: 0px 30px;
-}
-.tiricons img{
-    height: 20px;
-    width: 20px;
-    margin-bottom: -3px;
-}
-.navbar{
-    margin-left: 35px;
+nav a:hover {
+    background-color: #f0f0f0;
 }
 
-.herodetail{
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(243, 220, 197);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    transform: scale(1.1);
+}
+
+.sidebar li {
     width: 100%;
 }
-.img1hero{
-    width: 500px;
-    height: 472px;
-    margin-top: 10px;
+
+.sidebar a {
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
     display: flex;
-    justify-content: space-between;
-}
-
-.img1hero img{
-    width: 400px;
-    height: 433px;
-    border-radius: 50px;
-    margin-left: 30px;
-   
-}
-
-.TitreETprix{
-    margin-top: 70px;
-    margin-left: 50px;
-    display: flex;
-}
-
-.titreimg{
-    color: black;
-    font-size: 30px;
-}
-
-.TitreETprix .priximg{
-    color: #A18A68;
-    margin-top: 3px;
-    margin-left: 36px;
-    font-size: 30px;
-}
-
-.imgdetaill{
-    display: flex;
-}
-
-.sousimg{
-    width: 823px;
-    height: 471px;
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
-.sousimg img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    gap: 12px;
-  
+.containerimgDROIT {
+    flex: 1;
 }
 
-
-.stars{
-    width: 94px;
-    height: 26px;
-    margin-left: 40px;
-}
-
-.descETbuyNow{
-    width: 100%;
-    height: 401px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.descETbuyNow__content{
-    width: 48.4%;
-
-
-}
-
-.selectoption{
-    font-size: 20px;
-    width: 300px;
-    height: 9Opx;
-    margin-left: 5px;
-    margin-top: 30px;
-    border: none;
-    background-color:#d9d9d994 ;
+.imgDacceuil img {
+    max-width: 100%;
+    height: auto;
     
 }
 
-
-
-.BuyNowbtn{
-    text-decoration: none;
-    color: black;
-    background-color: #FFDF3A;
-    padding: 5px 114px;
-    font-weight: 600;
-    position: absolute;
-    bottom: -460px;
+.Images {
+    display: flex;
+    margin-top: 20px;
 }
+
+.sousImage {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.sousImage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenudroit {
+    flex: 1;
+    background-color: #f3cd9a40;
+    padding: 0 25px;
+
+}
+
+.ProdName {
+    font-size: 24px;
+    
+}
+
+.Etoils {
+    color: #FFD700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.prix {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.paragdescr {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+select#colores {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    width: 100px;
+}
+
+.Quantity {
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 0 15px;
+    font-size: 10px;
+    margin: 12px 0;
+    width: 100px;
+    border: solid #333;
+
+}
+
+.btn-addToCart {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1c8c0f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 
 footer{
     width: 100%;
@@ -195,13 +266,12 @@ color: #707070;
 }
 
 .navfooter .enteremail{
-    margin-left: 29em;
+    display: flex;
     width: 22em;
     border-top: none;
     border-left: none;
     border-right:none;
+    position: absolute;
+    right: 10px;
 
 }
-
-
-
