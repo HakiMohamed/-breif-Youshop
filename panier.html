@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Panier</title>
+</head>
+<body>
+     
+    <nav>
+
+        <ul class="sidebar">
+        <li onclick="anulleSidebar()"> <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+        <li> <a href="#">Shop</a></li>
+        <li> <a href="#">Blog</a></li>
+        <li> <a href="#">Our story</a></li>  
+        <li> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li> <a href="panier.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li> <a href="#"><i class="fa-regular fa-user"></i></a></li>  
+        </ul>
+        
+           
+         <ul>
+            <li><Span class="Votre" >Votre</Span> <Span class="Cart">Cart</Span></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Shop</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Blog</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">Our story</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#">|</a></li>
+            <li class="nePasAficherOnMobile"> <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="nePasAficherOnMobile"> <a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="nePasAficherOnMobile"> <a href="#"><i class="fa-regular fa-user"></i></a></li>  
+            <li class="menubtn" onclick="afficherSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+           
+        </ul>
+        </nav>
+
+ 
+    <main>
+        <div class="produit">
+            <img src="images/Img-5-.png" alt=" img de Plaine Necklace">
+            <h2>Plaine Necklace</h2>
+            <label for="quantity1">Quantité :</label>
+            <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+            <h4 class="prix">$19.00</h4>
+            <button class="buttonRetirer" data-id="1">Retirer</button>
+        </div>
+        <div class="produit num2">
+            <img src="images/Img-1-.png" alt="img de Lira Earrings">
+            <h2>Lira Earrings</h2>
+            <label for="quantity2">Quantité :</label>
+            <input type="number" id="quantity2" name="quantity2" value="1" min="1">
+            <h4 class="prix">$20.00</h4>
+            <button class="buttonRetirer" data-id="2">Retirer</button>
+        </div>
+        <div class="produit num3">
+            <img src="images/Img-2-.png" alt="img de Hal Earrings">
+            <h2>Hal Earrings</h2>
+            <label for="quantity3">Quantité :</label>
+            <input type="number" id="quantity3" name="quantity3" value="1" min="1">
+            <h4 class="prix">$25.00</h4>
+            <button class="buttonRetirer" data-id="3">Retirer</button>
+        </div>
+        <div class="produit num4">
+            <img src="images/Img-3-.png" alt="img de Kaede Hair Pin">
+            <h2>Kaede Hair Pin </h2>
+            <label for="quantity4">Quantité :</label>
+            <input type="number" id="quantity4" name="quantity4" value="1" min="1">
+            <h4 class="prix">$30.00</h4>
+            <button class="buttonRetirer" data-id="4">Retirer</button>
+        </div>
+    </main>
+    <footer>
+        <div class="total">
+            Total : <span class="prix-total">$94.00</span>
+        </div>
+        <a href="Checkout.html">
+            <button class="checkout-button">la caisse</button>
+        </a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
